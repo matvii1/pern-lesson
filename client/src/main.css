@@ -1,0 +1,67 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+}
+
+.container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-container {
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 0 1.2rem;
+}
+
+li {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  /* max-width: 100%; */
+}
+
+.close-btn {
+  width: 25px;
+  font-size: 1.3rem;
+}
+
+.my-btn {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.85rem;
+}
+
+.edit-input {
+  margin: 0 1rem 0 0;
+}
